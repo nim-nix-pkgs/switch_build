@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-switch_build-master.flake = false;
+  inputs.src-switch_build-master.ref   = "refs/heads/master";
   inputs.src-switch_build-master.owner = "jyapayne";
-  inputs.src-switch_build-master.ref   = "master";
   inputs.src-switch_build-master.repo  = "switch-build";
   inputs.src-switch_build-master.type  = "github";
   
